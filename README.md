@@ -29,4 +29,4 @@ down：0当每次游戏未成功机器人摔倒时会给出一个-100分的惩�
 # 最终训练效果
 最终模型的结果仍然不是特别理想，100episode的test只能做到150分左右的平均分，与其他模型还存在很大差距。因为模型训练时长比较长，之后想再尝试一下更改模型结构，或者其他的调参技巧看可不可以得到比较好的效果
 通关gif：
-![image](https://github.com/vivichloe/PARL_box2d_bipedalwalkerhardcore-v2-based-on-SAC-/raw/master/BipedalWalkerHardcore_result.gif)
+![image](https://github.com/vivichloe/PARL_box2d_bipedalwalkerhardcore-v2-based-on-SAC/raw/master/BipedalWalkerHardcore_result.gif)
