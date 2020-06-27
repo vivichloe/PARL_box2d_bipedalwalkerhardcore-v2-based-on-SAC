@@ -1,0 +1,2 @@
+# PARL_box2d_bipedalwalkerhardcore-v2-based-on-SAC-
+使用parl框架解决gym环境中的box2d的bipedalwalkerhardcore-v2游戏，应用强化学习方法sac
