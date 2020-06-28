@@ -28,7 +28,7 @@ down：0当每次游戏未成功机器人摔倒时会给出一个-100分的惩�
 调整参数，此时memory size为1e6，actor、critic网络的学习率均为1e-3，训练24小时，1e6 steps，习得跨越陷阱、台阶策略，但方块策略不稳健（掉落一般是由于方块未成功跨越），此时已可以完成通关条件  
 将down后的-100reward改为-0.5，增加memory size为2e6，actor、critic学习率为1e-4，在前模型基础上继续训练，可以得到较为稳定的策略  
 # 最终训练效果
-最终模型的结果仍然不是特别理想，100episode的test只能做到150分左右的平均分，与其他模型还存在很大差距。因为模型训练时长比较长，之后想再尝试一下更改模型结构，或者其他的调参技巧看可不可以得到比较好的效果  
+受时间限制，最终提交模型训练共约4000episode，100episode的test达到150分左右的平均分，30%的通关几率，与屠榜模型还存在很大差距。因为模型训练时长比较长，之后想再尝试一下更改模型结构，或者其他的调参技巧看可不可以得到比较好的效果  
 通关gif：  
 ![image](https://github.com/vivichloe/PARL_box2d_bipedalwalkerhardcore-v2-based-on-SAC/raw/master/BipedalWalkerHardcore_result.gif)  
 aistudio版本的nootbook(不包含图形化显示和gif生成)：  
