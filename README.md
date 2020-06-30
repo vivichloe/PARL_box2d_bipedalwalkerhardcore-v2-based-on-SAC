@@ -34,3 +34,6 @@ down：0当每次游戏未成功机器人摔倒时会给出一个-100分的惩�
 ![image](https://github.com/vivichloe/PARL_box2d_bipedalwalkerhardcore-v2-based-on-SAC/raw/master/BipedalWalkerHardcore_result.gif)  
 aistudio版本的nootbook(不包含图形化显示和gif生成)：  
 https://aistudio.baidu.com/aistudio/projectdetail/586297  
+
+# 更新
+新增2048游戏的dqn算法训练代码，只包含aistudio的成功运行notebook，因提交时间问题尚未对模型进行训练和调参。待更新
